@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "cs183"
+  site-url: "https://TesfaAsmara.github.io/cs183"
+  description: "A place to present my work for the Clinic Capstone at Harvey Mudd College"
+  repo-branch: main
+  repo-url: "https://github.com/TesfaAsmara/cs183"
