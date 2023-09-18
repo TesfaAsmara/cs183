@@ -1,20 +1,37 @@
+ipynb-filters: [nbdev_filter]
+
 project:
   type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 4
 
 website:
+  title: "cs183"
+  site-url: "https://TesfaAsmara.github.io/cs183"
+  description: "A place to present my work for the Clinic Capstone at Harvey Mudd College"
   twitter-card: true
   open-graph: true
+  repo-branch: main
+  repo-url: "https://github.com/TesfaAsmara/cs183"
   repo-actions: [issue]
   navbar:
     background: primary
     search: true
+    right:
+      - icon: github
+        href: "https://github.com/TesfaAsmara/cs183"
   sidebar:
-    style: floating
+    style: "floating"
 
-metadata-files: [nbdev.yml, sidebar.yml]
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
